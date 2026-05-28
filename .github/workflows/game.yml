@@ -1,11 +1,13 @@
 # ============================================================
-# HOW TO USE THIS FILE:
-# 1. In your Seshmanuvarthi repo go to .github/workflows/game.yml
-# 2. Replace the entire file content with this
-# 3. Commit → Actions tab → Run workflow
+# HOW TO USE:
+# Replace your existing .github/workflows/game.yml with this
+# Then go to Actions tab → Run workflow
+# The 3D graph will appear at:
+#   profile-3d-contrib/profile-night-rainbow.svg  (dark mode)
+#   profile-3d-contrib/profile-season-animate.svg (light mode)
 # ============================================================
 
-name: Generate Pac-Man Game Animation
+name: Generate 3D Contribution Graph
 
 on:
   schedule:
@@ -19,23 +21,23 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: Generate Pac-Man SVG from contributions
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg?palette=github
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: actions/checkout@v4
 
-      - name: Push animation to output branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output
-          publish_dir: dist
-          force_orphan: true
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit and push generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "chore: update 3D contribution graph"
+          git push
