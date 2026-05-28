@@ -8,10 +8,6 @@
 
 <br/><br/>
 
-![Visitor Count](https://profile-counter.glitch.me/Seshmanuvarthi/count.svg)
-
-<br/>
-
 ![Profile Views](https://komarev.com/ghpvc/?username=Seshmanuvarthi&color=7B8EFF&style=flat-square&label=Profile+Views)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seshadri-naidu-manuvarthi-366466295/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Seshmanuvarthi)
@@ -72,8 +68,14 @@ sesh = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Seshmanuvarthi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seshmanuvarthi&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Seshmanuvarthi&theme=tokyonight"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Seshmanuvarthi&theme=tokyonight"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Seshmanuvarthi&theme=tokyonight"/>
 
 </div>
 
@@ -91,12 +93,12 @@ sesh = {
 
 ---
 
-## 🕹️ PAC-MAN Eating My Contributions
+## 🚀 My Contributions — 3D Game World
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/output/github-contribution-grid-snake.svg">
-  <img alt="pac-man eating contributions" src="https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/main/profile-3d-contrib/profile-night-rainbow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/main/profile-3d-contrib/profile-season-animate.svg">
+  <img alt="3D contribution graph" src="https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/main/profile-3d-contrib/profile-night-rainbow.svg">
 </picture>
 
 ---
