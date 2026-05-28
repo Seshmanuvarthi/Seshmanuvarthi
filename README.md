@@ -93,13 +93,9 @@ sesh = {
 
 ---
 
-## 🚀 My Contributions — 3D Game World
+## 🛸 SPACE SHOOTER — Blast My Contributions
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/main/profile-3d-contrib/profile-night-rainbow.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/main/profile-3d-contrib/profile-season-animate.svg">
-  <img alt="3D contribution graph" src="https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/main/profile-3d-contrib/profile-night-rainbow.svg">
-</picture>
+![Space Shooter Game](https://raw.githubusercontent.com/Seshmanuvarthi/Seshmanuvarthi/main/game.gif)
 
 ---
 
@@ -107,6 +103,6 @@ sesh = {
 
 ### 💬 *"First solve the problem. Then write the code."*
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=80&section=footer"/>
 
 </div>
