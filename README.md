@@ -15,7 +15,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=Seshmanuvarthi&color=7B8EFF&style=flat-square&label=Profile+Views)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seshadri-naidu-manuvarthi-366466295/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Seshmanuvarthi)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sravantccc@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:seshmanuvarthi27@gmail.com)
 
 </div>
 
